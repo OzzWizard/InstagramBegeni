@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Web;
 
 namespace InstagramLike
 {
@@ -15,6 +16,18 @@ namespace InstagramLike
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HtmlElementCollection instagram = webBrowser1.Document.GetElementsByTagName("a");
+            foreach (HtmlElement item in instagram)
+            {
+                if (item.GetAttribute("className") == "gmFkV")
+                {
+                    label1.Text = item.GetAttribute("OuterText");
+                }
+            }
         }
     }
 }
