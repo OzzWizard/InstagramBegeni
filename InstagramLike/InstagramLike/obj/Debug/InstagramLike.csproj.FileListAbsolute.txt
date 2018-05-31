@@ -1,0 +1,11 @@
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\bin\Debug\InstagramLike.exe.config
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\bin\Debug\InstagramLike.exe
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\bin\Debug\InstagramLike.pdb
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\bin\Debug\MetroFramework.dll
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\obj\Debug\InstagramLike.csprojResolveAssemblyReference.cache
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\obj\Debug\InstagramLike.Form1.resources
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\obj\Debug\InstagramLike.Properties.Resources.resources
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\obj\Debug\InstagramLike.csproj.GenerateResource.Cache
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\obj\Debug\InstagramLike.exe
+C:\Users\OzzWizard\Documents\GitHub\InstagramBegeni\InstagramLike\InstagramLike\obj\Debug\InstagramLike.pdb
