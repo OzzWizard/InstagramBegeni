@@ -36,7 +36,7 @@
             this.bunifuWebClient1 = new ns1.BunifuWebClient(this.components);
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.bunifuGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +56,6 @@
             // 
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.Controls.Add(this.button1);
             this.bunifuGradientPanel1.Controls.Add(this.label1);
             this.bunifuGradientPanel1.Controls.Add(this.webBrowser1);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -104,15 +103,9 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Login olan hesap :  null!";
             // 
-            // button1
+            // timer1
             // 
-            this.button1.Location = new System.Drawing.Point(1192, 47);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 27);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -138,7 +131,7 @@
         private System.Windows.Forms.WebBrowser webBrowser1;
         private ns1.BunifuWebClient bunifuWebClient1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Timer timer1;
 
     }
 }

@@ -17,16 +17,22 @@ namespace InstagramLike
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            HtmlElementCollection instagram = webBrowser1.Document.GetElementsByTagName("a");
-            foreach (HtmlElement item in instagram)
+            try
             {
-                if (item.GetAttribute("className") == "gmFkV")
+                HtmlElementCollection instagram = webBrowser1.Document.GetElementsByTagName("a");
+                foreach (HtmlElement item in instagram)
                 {
-                    label1.Text = item.GetAttribute("OuterText");
+                    if (item.GetAttribute("className") == "gmFkV")
+                    {
+                        label1.Text = item.GetAttribute("OuterText");
+                    }
                 }
+            }
+            catch
+            {
+
             }
         }
     }
